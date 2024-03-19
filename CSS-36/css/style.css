@@ -15,7 +15,7 @@ main {
 .block {
   display: inline-block;
 height: 200px;
-width: 200px;
+max-width: 200px;
 background: #c7b575;
 padding: 15px;
 margin: 10px;
