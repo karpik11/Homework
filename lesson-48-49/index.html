@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формочки</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Формочка личной инфы</legend>
+      <label>Как тебя зовут <input type="text" placeholder="Поля" required></label>
+      <br>
+      <br>
+      <label>Твоя фамилия <input type="text" placeholder="необязательно"></label>
+      <br>
+      <br>
+      <label>Когда родился <input type="date" required></label>
+      <br>
+      <br>
+      <label>Телефончик <input type="tel" placeholder="+123456789"></label>
+      <br>
+      <br>
+      <label>Почта <input type="email" placeholder="@собака"></label>
+      <br>
+      <br>
+      <label>Пароль <input type="password" required></label>
+      <br>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Здесь надо выбрать любимые цвета</legend>
+      <label>Чёрный <input type="checkbox"></label>
+      <br>
+      <label>Красный <input type="checkbox"></label>
+      <br>
+      <label>Зелёный <input type="checkbox"></label>
+      <br>
+      <label>Жёлтый <input type="checkbox"></label>
+      <br>
+      <label>Синий <input type="checkbox"></label>
+      <br>
+      <label>Белый <input type="checkbox"></label>
+      <br>
+      <label>Все нравятся <input type="checkbox"></label>
+      <br>
+      <label>Все не нравятся <input type="checkbox"></label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Правильный ответ только один</legend>
+      <label>2+2=3<input type="radio" name="radio"></label>
+      <br>
+      <label>2+2=2<input type="radio" name="radio"></label>
+      <br>
+      <label>2+2=4<input type="radio" name="radio"></label>
+      <br>
+      <label>2+2=5<input type="radio" name="radio"></label>
+      <br>
+      <label>2+2=0<input type="radio" name="radio"></label>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Если есть что сказать</legend>
+      <textarea cols="40" rows="3"></textarea>
+    </fieldset>
+    <br>
+    <select name="fromSelect">
+      <option value="">--Выбор очевиден--</option>
+      <option value="var1">Я молодец</option>
+      <option value="var2">Я почти молодец</option>
+    </select>
+    <br>
+    <br>
+    <button type="reset">Передумал отправлять</button>
+    <button type="submit">Лови мои данные</button>
+    <br>
+    <br>
+    <label>Можешь что-нибудь поискать <input type="search"></label>
+  </form>
+</body>
+
+</html>
