@@ -1,0 +1,35 @@
+body {
+    background: #333;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    display: block;
+    border: 3px #fff solid;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+}
+
+h1::before {
+    background: #ea4561;
+    left: 34%;
+}
+
+h1::after {
+    background: #5345ea;
+    top: -30%;
+    right: 34%;
+}
