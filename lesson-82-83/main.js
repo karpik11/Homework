@@ -16,15 +16,13 @@
 
 //// 2 - число больше 10 ////
 
-// const numbers = [2, 15, 7, 26, 4, 53]
+// const numbers = [1, 11, 2, 3, 23, 234, 654, 5, 7, 8, 9]
 
-// function checkForBigNumber(array, item) {
-//   for (let i = 0; i < array.length; i++) {
-//     if (item > 10) {
-//       return `${item} больше 10`
-//     }
+// for (let i = 0; i < numbers.length; i++) {
+//   const element = numbers[i];
+//   if (element > 10) {
+//     console.log(element);
 //   }
-//   return `${item} меньше 10`
 // }
 
 // console.log(checkForBigNumber(numbers, 2));
