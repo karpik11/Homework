@@ -42,9 +42,9 @@
   }
 
   document.addEventListener('click', (e) => {
-    e.preventDefault()
     const target = e.target
     if (target.closest('.modal__cancel') || target.classList.contains('modal')) {
+    e.preventDefault()
       closeModal()
     }
   })
