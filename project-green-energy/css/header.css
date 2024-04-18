@@ -68,20 +68,25 @@
 
 .hero {
   background: var(--dark-bg);
+
   color: var(--white-color);
   padding-top: 72px;
-  position: relative;
+
 }
 
 .hero__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+
 }
 
 .hero__content {
   max-width: 592px;
   padding-bottom: 40px;
+
 }
 
 /* .hero::after {
@@ -140,13 +145,12 @@
 .hero__imgs {}
 
 .hero__img img {
+
   border-radius: var(--border-radius);
 }
 
 .hero__img {
   position: absolute;
-  /* object-fit: cover; */
-  overflow: hidden;
 }
 
 .hero__img-1 {
@@ -160,13 +164,17 @@
 }
 
 .hero__img-3 {
-  bottom: -95%;
+  bottom: -45%;
   left: 17%;
+
 }
 
 .hero__img-4 {
-  bottom: -76%;
+  bottom: -38%;
   right: 6%;
 }
 
-.hero__mask {}
+.hero__mask {
+  height: 300px;
+  background: linear-gradient(180.00deg, #022c22 27.342%, #022c2200 98.49%);
+}
