@@ -43,3 +43,11 @@ html {
   padding: 0 15px;
   height: 100%;
 }
+
+.button {
+  border: 1px solid var(--white-color);
+  border-radius: 200px;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: block;
+}
