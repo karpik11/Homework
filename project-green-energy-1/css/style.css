@@ -185,14 +185,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 96px 32px;
   justify-content: center;
-
 }
-
-.team__content {
-  /* position: relative; */
-}
-
-
 
 .team__img {
   width: 152px;
