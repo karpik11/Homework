@@ -1,3 +1,5 @@
+@import "fonts.css";
+@import "reset.css";
 @import "global.css";
 @import "header.css";
 @import "footer.css";
@@ -187,6 +189,7 @@
   justify-content: center;
 }
 
+
 .team__img {
   width: 152px;
   height: 152px;
@@ -250,6 +253,102 @@
   color: var(--accent-text);
 }
 
+/* ======= TESTIMONIALS ============================================== */
+
+.testimonials {
+  background: var(--dark-bg);
+  padding: 64px 112px 104px;
+}
+
+.testimonials__subtitle {
+  color: var(--white-color);
+  font-weight: 500;
+  border-bottom: 1px solid #d9dedd;
+  padding: 0 0 16px 16px;
+  position: relative;
+  margin-bottom: 56px;
+}
+
+.testimonials__subtitle::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  top: 19%;
+  left: 0%;
+}
+
+.testimonials__title {
+  color: var(--white-color);
+  font-size: 62px;
+  line-height: 68px;
+  margin-bottom: 96px;
+}
+
+.testimonials__slider {
+  overflow: visible;
+}
+
+.testimonials__wrapper {
+  margin-bottom: 64px;
+}
+
+.testimonials__slide {
+  max-width: 384px;
+  height: 356px;
+
+  padding: 40px;
+  background: var(--accent-color);
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px 1px #12693f14, 0px 1px 2px 0px #575c5629, 0px 24px 24px -12px #364a360f;
+}
+
+.testimonials__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 276px;
+}
+
+.testimonials__quote {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.testimonials__user {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonials__img {}
+
+.testimonials__info {}
+
+.testimonials__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.testimonials__profession {
+  font-size: 18px;
+}
+
+.testimonials__scrollbar {
+  background: #FFFFFF99;
+}
+
+.testimonials__scrollbar.swiper-scrollbar {
+  position: static;
+  width: 100%;
+  height: 2px;
+}
+
+.testimonials__scrollbar .swiper-scrollbar-drag {
+  background: var(--white-color);
+}
 
 
 /* ======= MEDIA ============================================== */
@@ -470,6 +569,13 @@
 
   .about {
     padding: 84px 90px;
+  }
+
+  /* ================================================= */
+
+  .testimonials__title {
+    font-size: 58px;
+    margin-bottom: 80px;
   }
 
   /* ================================================= */
@@ -862,6 +968,12 @@
 
   /* ================================================= */
 
+  .testimonials__title {
+    font-size: 58px;
+  }
+
+  /* ================================================= */
+
   .newsletter__title {
     font-size: 50px;
   }
@@ -954,6 +1066,12 @@
 
   .about__text {
     font-size: 20px;
+  }
+
+  /* ================================================= */
+
+  .testimonials__title {
+    font-size: 54px;
   }
 
   /* ================================================= */
