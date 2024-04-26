@@ -161,7 +161,6 @@
 
 .hero__content {
   max-width: 592px;
-  z-index: 1;
 }
 
 .hero::before {

@@ -1,11 +1,11 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4C0 1.79086 1.79086 0 4 0H28C30.2091 0 32 1.79086 32 4V28C32 30.2091 30.2091 32 28 32H4C1.79086 32 0 30.2091 0 28V4Z" fill="#BEF264"/>
-<rect x="15.3334" y="5.33334" width="1.33333" height="8" rx="0.666667" fill="#022C22"/>
-<rect x="15.3334" y="18.6667" width="1.33333" height="8" rx="0.666667" fill="#022C22"/>
-<rect x="23.071" y="7.98611" width="1.33333" height="8" rx="0.666667" transform="rotate(45 23.071 7.98611)" fill="#022C22"/>
-<rect x="13.6429" y="17.4142" width="1.33333" height="8" rx="0.666667" transform="rotate(45 13.6429 17.4142)" fill="#022C22"/>
-<rect x="18.6668" y="16.6667" width="1.33333" height="8" rx="0.666667" transform="rotate(-90 18.6668 16.6667)" fill="#022C22"/>
-<rect x="5.33344" y="16.6667" width="1.33333" height="8" rx="0.666667" transform="rotate(-90 5.33344 16.6667)" fill="#022C22"/>
-<rect x="17.4142" y="18.357" width="1.33333" height="8" rx="0.666667" transform="rotate(-45 17.4142 18.357)" fill="#022C22"/>
-<rect x="7.98621" y="8.92896" width="1.33333" height="8" rx="0.666667" transform="rotate(-45 7.98621 8.92896)" fill="#022C22"/>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="#BEF264"/>
+<rect x="23" y="8" width="2" height="12" rx="1" fill="#022C22"/>
+<rect x="23" y="28" width="2" height="12" rx="1" fill="#022C22"/>
+<rect x="34.6066" y="11.9792" width="2" height="12" rx="1" transform="rotate(45 34.6066 11.9792)" fill="#022C22"/>
+<rect x="20.4645" y="26.1213" width="2" height="12" rx="1" transform="rotate(45 20.4645 26.1213)" fill="#022C22"/>
+<rect x="28" y="25" width="2" height="12" rx="1" transform="rotate(-90 28 25)" fill="#022C22"/>
+<rect x="8" y="25" width="2" height="12" rx="1" transform="rotate(-90 8 25)" fill="#022C22"/>
+<rect x="26.1213" y="27.5355" width="2" height="12" rx="1" transform="rotate(-45 26.1213 27.5355)" fill="#022C22"/>
+<rect x="11.9792" y="13.3934" width="2" height="12" rx="1" transform="rotate(-45 11.9792 13.3934)" fill="#022C22"/>
 </svg>

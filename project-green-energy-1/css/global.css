@@ -23,6 +23,7 @@ html {
   font-weight: 400;
   background: var(--general-bg);
   letter-spacing: -0.064px;
+  color: var(--general-text);
 }
 
 .wrapper {
