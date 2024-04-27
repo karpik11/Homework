@@ -1,0 +1,386 @@
+/* ======= HEADER ============================================== */
+
+.header {
+  background: var(--dark-bg);
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.header__top {
+  padding: 24px 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__logo {
+  max-width: 107px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__logo-text {
+  color: var(--white-color);
+  font-size: 30px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 40px;
+}
+
+
+.nav {
+  align-self: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 32px;
+}
+
+.nav__link {
+  display: block;
+  padding: 5px 0;
+  transition: var(--transition);
+
+}
+
+.nav__link:hover {
+  color: var(--accent-color);
+}
+
+.nav__links {
+  display: none;
+}
+
+.header__button {
+  transition: var(--transition);
+}
+
+.header__button:hover {
+  background: #064e3b;
+}
+
+.header__button:active {
+  border: 2px solid var(--white-color);
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 2px #022c223d;
+  background: var(--dark-bg);
+}
+
+.burger-icon {
+  display: none;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 11;
+}
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: var(--white-color);
+  border-radius: 100px;
+
+  transition: var(--transition);
+}
+
+.burger-icon span {
+  position: relative;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+  content: '';
+  position: absolute;
+}
+
+.burger-icon span::before {
+  top: -8px
+}
+
+.burger-icon span::after {
+  bottom: -8px;
+}
+
+.body--opened-menu {
+  overflow: hidden;
+}
+
+.body--opened-menu .burger-icon span {
+  background: transparent;
+}
+
+.body--opened-menu .burger-icon span::before {
+  top: 0;
+  transform: rotate(45deg);
+  background: var(--general-text);
+}
+
+.body--opened-menu .burger-icon span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+  background: var(--general-text);
+}
+
+
+/* ======= HERO ============================================== */
+
+.hero {
+  background: var(--dark-bg);
+  color: var(--white-color);
+  padding-top: 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px 300px;
+}
+
+.hero__content {
+  max-width: 592px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(180.00deg, #022c2200 27.342%, #022c22 98.49%);
+  bottom: 0%;
+  left: 0%;
+  z-index: 2;
+}
+
+.hero__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.hero__title {
+  font-size: 96px;
+  line-height: .9;
+  letter-spacing: -5px;
+  text-align: center;
+  padding: 24px 0 32px;
+}
+
+.hero__text {
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.hero__button-1 {
+  background: var(--accent-color);
+  padding: 16px 24px;
+  color: var(--general-text);
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.hero__button-1:hover {
+  background: #a3e635;
+}
+
+.hero__button-1:active {
+  border: 2px solid #ffffff inset;
+  box-shadow: 0px 0px 0px 2px #022c223d;
+  background: var(--accent-color);
+}
+
+.hero__button-2 {
+  padding: 16px 24px;
+  transition: var(--transition);
+}
+
+.hero__button-2:hover {
+  background: #064e3b;
+}
+
+.hero__button-2:active {
+  border: 2px solid #ffffff;
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 2px #022c223d;
+  background: var(--dark-bg);
+}
+
+.hero__imgs {
+  z-index: 1;
+}
+
+.hero__img img {
+  border-radius: var(--border-radius);
+
+}
+
+.hero__img {
+  position: absolute;
+  overflow: hidden;
+}
+
+.hero__img-1 {
+  top: 17%;
+  left: 1.5%;
+}
+
+.hero__img-2 {
+  top: 10%;
+  right: -1%;
+}
+
+.hero__img-3 {
+  bottom: -22%;
+  left: 17%;
+}
+
+.hero__img-4 {
+  bottom: -11%;
+  right: 8%;
+}
+
+/* ======= LOGOS ============================================== */
+
+.logos {
+  background: var(--dark-bg);
+  padding: 96px 112px;
+  border-bottom: 1px solid #d9dedd;
+  border-top: 1px solid #d9dedd;
+}
+
+
+.logos__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px
+}
+
+.logos__text {
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.logos__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 91px;
+}
+
+.logos__item {
+  color: var(--logo-text);
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ======= NEWSLETTER ============================================== */
+
+.newsletter {
+  padding: 72px 0;
+  background: var(--dark-bg);
+  color: var(--white-color);
+}
+
+.newsletter__inner {
+  display: flex;
+  position: relative;
+}
+
+.newsletter__inner::after {
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 452px;
+  background: var(--general-bg);
+  top: -23.6%;
+  right: -39.7%;
+}
+
+.newsletter__content {
+  max-width: 592px;
+}
+
+.newsletter__title {
+  font-size: 62px;
+  line-height: 68px;
+  letter-spacing: -1.3px;
+  margin-bottom: 24px;
+}
+
+.newsletter__text {
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffffcc;
+  margin-bottom: 40px;
+}
+
+.newsletter__input {
+  display: flex;
+  gap: 8px;
+}
+
+.newsletter__input-mail input {
+  width: 368px;
+  height: 56px;
+  padding: 16px 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 1px #022c2221, 0px 1px 2px 0px #022c2214;
+}
+
+.newsletter__button {
+  background: var(--accent-color);
+  color: var(--general-text);
+  border: none;
+  padding: 16px 24px;
+}
+
+.newsletter__circle {
+  width: 452px;
+  height: 452px;
+  border-radius: 50%;
+  background: linear-gradient(to right, var(--accent-color) 50%, transparent 50%), url('../img/header/head-3.jpeg') no-repeat;
+  background-size: 150%;
+  background-position: 50% 0%;
+  position: absolute;
+  top: -23.6%;
+  right: -0.7%;
+  z-index: 1;
+}
