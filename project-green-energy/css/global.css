@@ -6,11 +6,15 @@
   --white-color: #FFFFFF;
   --dark-bg: #022C22;
   --accent-color: #BEF264;
-  --accent-color-2: ;
+  --border-color: #d9dedd;
   --transition: all .4s;
-  --border-radius: 18px;
+  --border-radius: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 0px;
+}
 
 .body {
   font-family: "Figtree", "Arial", sans-serif;
@@ -19,6 +23,7 @@
   font-weight: 400;
   background: var(--general-bg);
   letter-spacing: -0.064px;
+  color: var(--general-text);
 }
 
 .wrapper {
@@ -40,24 +45,30 @@
   height: 100%;
 }
 
-
-
-/* .button {
-  width: 100%;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.6;
-  height: 62px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--accent-color);
-  border-radius: 60px;
-  padding: 3px 15px;
-
-  transition: var(--transition);
+.main__features,
+.main__metrics,
+.main__team,
+.main__testimonials,
+.main__blog,
+.main__faq {
+  padding-bottom: 104px;
 }
 
-.button:hover {
-  background: #FF9138;
-} */
+.main__metrics,
+.main__team,
+.main__blog,
+.main__faq {
+  padding-top: 104px;
+}
+
+.title {
+  font-weight: 62px;
+}
+
+.button {
+  border: 1px solid var(--white-color);
+  border-radius: 200px;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: block;
+}
