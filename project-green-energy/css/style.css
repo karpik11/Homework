@@ -799,6 +799,13 @@
     padding-bottom: 80px;
   }
 
+  .main__metrics,
+  .main__team,
+  .main__blog,
+  .main__faq {
+    padding-top: 80px;
+  }
+
   .title {
     font-size: 58px;
   }
@@ -895,6 +902,13 @@
   .main__blog,
   .main__faq {
     padding-bottom: 60px;
+  }
+
+  .main__metrics,
+  .main__team,
+  .main__blog,
+  .main__faq {
+    padding-top: 60px;
   }
 
   .title {
@@ -1097,6 +1111,24 @@
 
 @media (max-width: 700px) {
 
+  .main__features,
+  .main__metrics,
+  .main__team,
+  .main__testimonials,
+  .main__blog,
+  .main__faq {
+    padding-bottom: 40px;
+  }
+
+  .main__features,
+  .main__metrics,
+  .main__team,
+  .main__testimonials,
+  .main__blog,
+  .main__faq {
+    padding-top: 40px;
+  }
+
   .title {
     font-size: 48px;
   }
@@ -1261,6 +1293,22 @@
 
 @media (max-width: 500px) {
 
+  .main__features,
+  .main__metrics,
+  .main__team,
+  .main__testimonials,
+  .main__blog,
+  .main__faq {
+    padding-bottom: 20px;
+  }
+
+  .main__metrics,
+  .main__team,
+  .main__blog,
+  .main__faq {
+    padding-top: 20px;
+  }
+
   .title {
     font-size: 40px;
   }
@@ -1361,19 +1409,18 @@
 
   .footer__inner {
     grid-template-columns: none;
-    justify-content: center;
   }
 
   .footer__col {
     margin-bottom: 30px;
   }
 
-  .footer__col:last-child {
-    margin-bottom: 0;
+  .footer__col-2, .footer__col-3, .footer__col-4, .footer__col-5 {
+    justify-self: start;
   }
 
-  .footer__col-3 {
-    padding-left: 38px;
+  .footer__col:last-child {
+    margin-bottom: 0;
   }
 
   .footer__col-5 {
